@@ -129,7 +129,7 @@ class Operation:
         """
         if b == 0:
             # Checks if the divisor is zero to prevent undefined division.
-            raise ValueError("Division by zero is not allowed.")  # Raises an error if division by zero is attempted.
+            raise ZeroDivisionError("Division by zero is not allowed.")  # Raises an error if division by zero is attempted.
         return a / b  # Divides `a` by `b` and returns the quotient.
 
     

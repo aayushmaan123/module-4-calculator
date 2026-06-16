@@ -312,7 +312,7 @@ def test_division_with_zero_divisor():
     b = 0.0
 
     # Act & Assert
-    with pytest.raises(ValueError) as exc_info:
+    with pytest.raises(ZeroDivisionError) as exc_info:
         Operation.division(a, b)
     
     # Verify that the exception message is as expected

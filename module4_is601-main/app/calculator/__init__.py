@@ -13,7 +13,7 @@ providing a comprehensive learning experience for students.
 """
 
 import sys
-import readline  # Enables command history and editing features
+# import readline  # Enables command history and editing features
 from typing import List
 from app.calculation import Calculation, CalculationFactory
 
