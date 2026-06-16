@@ -26,8 +26,10 @@ jobs:
         
     - name: Run tests with coverage
       run: |
+        cd module4_is601-main
         pytest --cov=app tests/
         
     - name: Check coverage
       run: |
+        cd module4_is601-main
         coverage report --fail-under=100
